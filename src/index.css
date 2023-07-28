@@ -3,6 +3,8 @@
   padding-left: 50px;
 }
 
+
+
 .searchBar{
   width: 500px;
   padding-left: 10px;
@@ -25,5 +27,14 @@
 }
 .main{
   display: flex;
-  gap: 20px
+  flex-direction: column;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1; 
 }

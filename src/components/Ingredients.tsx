@@ -1,7 +1,11 @@
+import { recipe } from "../mock/recipe"
 
 const Ingredients = () => {
   return (
-    <div>Ingredients</div>
+    <div>
+      {recipe.ingredients.map((element, index)=> 
+      <p key={index}>{element}</p>)}
+    </div>
   )
 }
 
