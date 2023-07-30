@@ -1,4 +1,6 @@
+import botwinkaPhoto from '../assets/botwinkaPhoto.jpg'
 export const recipe = {
+  index:1,
   title: 'Botwinka',
   rate: 5,
   description: 'zupa taka średnia, nie lubię chociaż nie jadłem, ale burak to burak',
@@ -13,6 +15,7 @@ export const recipe = {
   calories: '350Kcal',
   time: '30min',
   ingredients: ['1 litr bulionu', '1 pęczek botwinki wraz z buraczkami', '500 g ziemniaków np. młodych', '2 łyżeczki soku z cytryny',
-   '1/3 łyżeczki zmielonego pieprzu', '5 łyżek śmietanki 30% lub 18% do zup i sosów', 'pół pęczka koperku']
+   '1/3 łyżeczki zmielonego pieprzu', '5 łyżek śmietanki 30% lub 18% do zup i sosów', 'pół pęczka koperku'],
+   photo: botwinkaPhoto
 }
 

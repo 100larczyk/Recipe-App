@@ -1,7 +1,7 @@
 
 const Logo = () => {
   return (
-    <div>BetterTable</div>
+    <h3>BetterTable</h3>
   )
 }
  export default Logo
