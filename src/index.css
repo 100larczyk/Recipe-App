@@ -1,7 +1,6 @@
 :root{
   font-family: 'Open Sans', sans-serif;
     background-image: url(../src/assets/wepik-export-20230730180906lBDG.png);
-  /* background-image: linear-gradient(to right, rgba(74,82,103,255), rgba(22,28,45,255)); */
   padding-left: 50px;
   margin: 0;
   padding: 0 5vw 0 5vw
@@ -71,11 +70,13 @@ display: flex;
 }
 .recipeStep{
 display: flex;
+align-items: center;
 }
 .recipeStep > h6 {
   transform: rotate(-90deg);
   font-size: xx-small;
   min-width: max-content;
+  
 }
 
 .details {
