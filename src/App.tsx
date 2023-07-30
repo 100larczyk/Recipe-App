@@ -26,7 +26,7 @@ function App() {
               <Picture />
             </div>
           </div>
-            <div className="row">
+            <div className="row recipeSteps">
                <RecipeSteps />
              </div>
         </div>

@@ -1,5 +1,6 @@
 :root{
-  background-color: rgba(86,93,109,255);
+  font-family: 'Open Sans', sans-serif;
+    background-image: url(../src/assets/wepik-export-20230730180906lBDG.png);
   /* background-image: linear-gradient(to right, rgba(74,82,103,255), rgba(22,28,45,255)); */
   padding-left: 50px;
   margin: 0;
@@ -14,7 +15,7 @@ display: flex;
   width: 40vw;
   height: 5vh;
   padding-left: 10px;
-	background-color: rgb(68, 75, 91);
+	background-color: #e8e4c9;
   color: rgba(61,67,84,255);
   border: none;
   border-radius: 3px;
@@ -54,7 +55,7 @@ display: flex;
 }
 
 .picture{
-  width: 400px;
+  max-width: 400px;
   border-radius: 20px;
 }
 
@@ -64,9 +65,12 @@ display: flex;
   display: inline;
   margin-right: 10px;
 }
+
+.recipeSteps{
+  width: 53vw;
+}
 .recipeStep{
 display: flex;
-
 }
 .recipeStep > h6 {
   transform: rotate(-90deg);
@@ -75,17 +79,18 @@ display: flex;
 }
 
 .details {
+  overflow:auto;
   position: fixed;
   top: 10px;
   right: 5vw;
   height: 95vh;
   width: 30vw;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.781);
+  background-color: #e8e4c9;
   color: black;
   border-radius: 20px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 10px;
 }
 .recipeDetails{
