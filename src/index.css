@@ -1,26 +1,31 @@
 :root{
   font-family: 'Open Sans', sans-serif;
-  background-color: 	#CDCDCD;
+  background-color: 	#cdcdcd4d;
   padding-left: 50px;
   margin: 0;
   padding: 0 5vw 0 5vw;
 }
 
+
 .wrapper{
 display: flex;
 flex-direction: column;
+margin-bottom: 12px;
 }
 
 .searchBar{
-  width: 40vw;
+  width: 45vw;
   height: 5vh;
   padding-left: 10px;
 	background-color: #ffffff;
   color: rgba(61,67,84,255);
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
+.logo{
+  text-decoration: underline;}
+
 .header {
   display: flex;
   align-items: center;
@@ -38,7 +43,7 @@ flex-direction: column;
 .row {
   display: flex;
   gap: 20px;
-  background-color: #CDCDCD;
+  background-color: none;
   width: 53vw;
   height: 250px;
   border-radius: 15px;
@@ -51,13 +56,15 @@ flex-direction: column;
 
 .title{
   margin-top: 0;
+  padding-top: 0;
 }
 
 .descriptionTab{
   border-radius: 15px;
   background-color: #ffffff;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -70,7 +77,7 @@ flex-direction: column;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .pictureDiv{
-  background-color: #CDCDCD;
+  background-color: #cdcdcd4d;
 }
 
 .tagParagraph {
@@ -78,11 +85,13 @@ flex-direction: column;
   background-color: #cdcdcd7e;
   display: inline;
   margin-right: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .recipeSteps{
   margin-top: 40px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 25px;
+  padding-top: 15px;
   background-color: #ffffff;
   height: auto;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
@@ -90,6 +99,7 @@ flex-direction: column;
 }
 h2{
   margin-left: 10px;
+  margin-top: 0;
 }
 
 .recipeStep{
@@ -126,6 +136,3 @@ align-items: center;
   border-bottom: 1px gray solid;
 }
 
-.footer {
-text-align: center;
-}

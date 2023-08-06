@@ -1,4 +1,4 @@
-import { recipe } from "../mock/recipe"
+import { recipe } from "../../mock/recipe"
 
 const Ingredients = () => {
   return (
